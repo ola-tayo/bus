@@ -1,0 +1,198 @@
+@CHARSET "UTF-8";
+/* Custom CSS */
+.ibox-heading { background-color: #f0f9f1 !important; }
+.hideEm .has-error .help-block,
+.hideEm em{display: none !important;}
+.pj-grid .table-responsive-actions .btn{padding: 6px 3px;}
+@media (max-width:1600px){
+	.timeline-item .badge { margin-bottom: 15px; }
+}
+.tox.tox-silver-sink{z-index: 9999;}
+/*.table-responsive-tertiary, .table-responsive-secondary{overflow: unset !important;}*/
+
+.bsMapHolder{
+	position: relative;
+	overflow: auto;
+	width: 100%;
+	margin-bottom: 12px;
+}
+.rect {
+    cursor: pointer;
+    display: block;
+    font-size: 0.9em;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+}
+.empty {
+    background-color: #135E8D;
+    color: #ffffff;
+}
+.rect-selected{
+	background-color: #be8329;
+    color: #ffffff;
+}
+.ui-resizable-se {
+    height: 8px !important;
+    width: 8px !important;
+}
+.bus-type-tooltip{
+	font-size: 13px;
+	margin-left: 10px;
+}
+.bs-loader-outer{
+	position: relative;
+}
+.bs-loader{
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 9999;
+	background: url("../img/backend/pj-preloader.gif") no-repeat scroll center center rgba(153, 153, 153, 0.3);
+    left: 0;
+    position: absolute;
+    top: 0px;
+}
+#bs_date_container .input-group {
+  width: 85%;
+  float: left;
+}
+#bs_date_container .pj-button-remove-date {
+  float: left;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+#frmUpdateTicket .form-control.error,
+.form-control.pj-error-field {
+    border: 1px solid #ed5565;
+}
+.pj-hide-count{
+	display: none;
+}
+
+#selectSeatContentWrapper,
+#returnSelectSeatContentWrapper{overflow: auto;}
+.bs-booked{
+	background-color: #fe979b;
+}
+.bs-selected{
+	background-color: #5cccfa;
+}
+.bs-available{
+	cursor: pointer;
+}
+.bs-return-booked{
+	background-color: #fe979b;
+}
+.bs-return-selected{
+	background-color: #5cccfa;
+}
+.bs-return-available{
+	cursor: pointer;
+}
+.bs-seats-legend{
+	overflow: hidden;
+}
+.bs-seats-legend label{
+	display: block;
+	float: left;
+	margin-right: 20px;
+	line-height: 20px;
+}
+.bs-seats-legend label span{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 5px;
+}
+.bs-seats-legend label span.bs-available-seats{
+	background-color: #135E8D;
+}
+.bs-seats-legend label span.bs-selected-seats{
+	background-color: #5cccfa;
+}
+.bs-seats-legend label span.bs-booked-seats{
+	background-color: #fe979b;
+}
+#pjBsSummaryWrapper .panel-body{
+	word-break: break-word;
+}
+.pjTblSeatsGrid{
+	margin-bottom: 20px;
+}
+.bs_price_wrap,
+.pjTblTimetableGrid,
+.pjTblSeatsGrid{
+	overflow: auto;
+	height: 400px;
+}
+.tblTicketPricesGrid,
+.tblTimetableGrid,
+.tblSeatsGrid{
+	border-collapse: collapse;
+	width: 100%;
+}
+.tblTicketPricesGrid tr th:first-child,
+.tblTimetableGrid tr th:first-child,
+.tblSeatsGrid tr th:first-child{
+	z-index: 12 !important;
+}
+.tblTicketPricesGrid tr th{
+	min-width: 110px;
+}
+.tblTicketPricesGrid tr th,
+.tblTimetableGrid tr th,
+.tblSeatsGrid tr th{
+	background-color: #f4f4f4;
+	border: 1px solid #ccc;
+	border-style: dotted;
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	text-align: center;
+	padding: 5px;
+	font-weight: normal;
+	color: #222;
+	z-index: 11 !important;
+}
+.tblTicketPricesGrid tr td,
+.tblTimetableGrid tr td,
+.tblSeatsGrid tr td{
+	border: 1px solid #ccc;
+	border-style: dotted;
+	font-weight: 600;
+	padding: 5px;
+	color: #222;
+}
+.tblTicketPricesGrid tr td{
+	font-weight: normal;
+}
+.tblTimetableGrid tr th.bs-passed-date, .tblTimetableGrid tr th.bs-passed-date a,
+.tblTimetableGrid tr td.bs-passed-date, .tblTimetableGrid tr td.bs-passed-date a{
+	color: #838282;
+}
+.tblTimetableGrid tr td.bs-bold-date,
+.tblTimetableGrid tr th.bs-bold-date{
+	font-weight: bold;
+}
+.tblTicketPricesGrid tr td:first-child,
+.tblTimetableGrid tr td:first-child,
+.tblSeatsGrid tr td:first-child{
+	background-color: #f4f4f4;
+	min-width: 100px;
+	z-index: 10 !important;
+}
+.tblTimetableGrid tr td:hover,
+.tblSeatsGrid tr td:hover{
+	background-color: #faf8ea !important;
+}
+.tblSeatsGrid td.bs-booked-seat{
+	background-color: #ffcc99 !important;
+    border-collapse: collapse;
+}
+.bs-seat-legends{
+	line-height: 24px;
+}
+.timeline-item .hr-line-dashed{margin: 10px 0;}
